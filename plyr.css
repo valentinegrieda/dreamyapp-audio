@@ -150,14 +150,14 @@
     cursor: pointer;
     flex-shrink: 0;
     overflow: visible;
-    padding: 7px;
+    /* padding: 7px; */
     /*position: relative;*/
     transition: all .3s ease;
     position: absolute !important;
     margin-top: 100px !important;
     text-align: center !important;
     z-index: 1;
-    left: 50%;
+    left: 48%;
 }
 
 .plyr__control svg {
@@ -263,7 +263,8 @@ a.plyr__control::before {
 
 .plyr__controls .plyr__controls__item:first-child {
     margin-left: 0;
-    margin-right: auto
+    margin-right: auto;
+    display: none !important;
 }
 
 .plyr__controls .plyr__controls__item.plyr__progress__container {
@@ -914,7 +915,7 @@ a.plyr__control::before {
     background: 0 0;
     border: 0;
     border-radius: 100px;
-    height: 1px;
+    height: 0px;
     left: 0;
     margin-top: -2.5px;
     padding: 0;
@@ -1380,7 +1381,7 @@ a.plyr__control::before {
     bottom: -4px;
     content: '';
     height: 0;
-    left: 50%;
+    left: 40%;
     position: absolute;
     transform: translateX(-50%);
     width: 0;
